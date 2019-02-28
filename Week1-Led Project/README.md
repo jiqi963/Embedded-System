@@ -4,7 +4,6 @@ The LED turn on and turn off every two second.
 </br>
 Code
 </br>
-
 void setup() {
   
   pinMode(13, OUTPUT);      // Set pin 13 to output
@@ -21,8 +20,8 @@ void loop() {
   digitalWrite(13, LOW);    // Turn off the LED
   
   delay(2000);              // Wait for two seconds
-  
 }
+
 </br>
 Video
 </br>

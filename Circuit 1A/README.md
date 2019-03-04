@@ -39,6 +39,3 @@ PCB
 </br>
 ![PCB](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201A/week1-03.png)
 </br>
-
-
-  

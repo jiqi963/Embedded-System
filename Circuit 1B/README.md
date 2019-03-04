@@ -1,6 +1,6 @@
 Potentiometer
 </br>
-[Potentiometer](https://www.youtube.com/watch?v=x8Ilyt4yVk0)
+[Video](https://www.youtube.com/watch?v=x8Ilyt4yVk0)
 </br>
 Schematic
 </br>

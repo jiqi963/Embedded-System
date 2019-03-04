@@ -14,3 +14,9 @@ Breadboard
 </br>
 ![Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201B/Breadbroad.PNG)
 </br>
+Reflection 
+</br>
+The potentiometer can put diff position from 0 to 1023 that will be effect the flashing frequency of the LED.
+</br>
+CODE
+</br>

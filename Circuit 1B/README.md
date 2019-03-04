@@ -1,6 +1,6 @@
 Potentiometer
 </br>
-![Schematic]https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201B/Schematic.PNG
+![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201B/Schematic.PNG)
 </br>
 ![PCB]https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201B/PCB.PNG
 </br>

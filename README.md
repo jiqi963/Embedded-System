@@ -9,3 +9,6 @@ The Arduino platform has become quite popular with people just starting out with
 
 more information
 https://learn.sparkfun.com/tutorials/what-is-an-arduino/all
+</hr>
+Ohm's law states that the current through a conductor between two points is directly proportional to the voltage across the two points. Introducing the constant of proportionality, the resistance, one arrives at the usual mathematical equation that describes this relationship
+I = V / R

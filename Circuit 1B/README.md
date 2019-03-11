@@ -1,5 +1,7 @@
 <h1>Potentiometer</h1>
 </br>
+<h3>YouTube</h3>
+</br>
 [Video](https://www.youtube.com/watch?v=x8Ilyt4yVk0)
 </br>
 <h3>Schematic</h3>

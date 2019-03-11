@@ -7,6 +7,10 @@ YouTube
 </br>
 https://youtu.be/PvYNSSltkb0
 </br>
+Source file
+</br>
+https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Circuit1C.fzz
+</br>
 Breadboard
 </br>
 https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Breadboard.PNG

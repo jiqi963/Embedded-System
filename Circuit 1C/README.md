@@ -1,25 +1,26 @@
+<h1>Photoresisitor</h1>
 </br>
-Reflection
+<h3>Reflection</h3>
 </br>
 Use the photoresistor to controller the LED turn on and off.
 </br>
-YouTube
+<h3>YouTube</h3>
 </br>
 https://youtu.be/PvYNSSltkb0
 </br>
-Source file
+<h3>Source file</h3>
 </br>
 https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Circuit1C.fzz
 </br>
-Breadboard
+<h3>Breadboard</h3>
 </br>
 ![Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Breadboard.PNG)
 </br>
-Schematic
+<h3>Schematic</h3>
 </br>
-![Schematic(]https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Schematic.PNG)
+![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Schematic.PNG)
 </br>
-CODE
+<h3>CODE</h3>
 </br>
 int photoresistor = 0;              //this variable will hold a value based on the position of the knob
 int threshold = 750;                //if the photoresistor reading is below this value the the light will turn on

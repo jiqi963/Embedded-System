@@ -1,4 +1,4 @@
-Potentiometer
+</h1>Potentiometer</h1>
 </br>
 [Video](https://www.youtube.com/watch?v=x8Ilyt4yVk0)
 </br>

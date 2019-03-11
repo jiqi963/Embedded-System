@@ -1,12 +1,19 @@
+</br>
+Reflection
+</br>
+Use the photoresistor to controller the LED turn on and off.
+</br>
 YouTube
 </br>
 https://youtu.be/PvYNSSltkb0
 </br>
+Breadboard
 </br>
+https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Breadboard.PNG
 </br>
+Schematic
 </br>
-</br>
-</br>
+https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Schematic.PNG
 </br>
 CODE
 </br>

@@ -13,11 +13,11 @@ https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Circuit1C.fz
 </br>
 Breadboard
 </br>
-https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Breadboard.PNG
+[Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Breadboard.PNG)
 </br>
 Schematic
 </br>
-https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Schematic.PNG
+[Schematic(]https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201C/Schematic.PNG)
 </br>
 CODE
 </br>

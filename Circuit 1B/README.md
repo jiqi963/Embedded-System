@@ -1,4 +1,7 @@
 <h1>Potentiometer</h1>
+<h3>Reflection </h3>
+</br>
+The potentiometer can put diff position from 0 to 1023 that will be effect the flashing frequency of the LED.
 </br>
 <h3>YouTube</h3>
 </br>
@@ -15,10 +18,6 @@
 <h3>Breadboard</h3>
 </br>
 ![Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%201B/Breadbroad.PNG)
-</br>
-<h3>Reflection </h3>
-</br>
-The potentiometer can put diff position from 0 to 1023 that will be effect the flashing frequency of the LED.
 </br>
 <h3>CODE</h3>
 </br>

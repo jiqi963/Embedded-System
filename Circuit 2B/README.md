@@ -1,7 +1,7 @@
 <h1>Digital Trumpet</h1>
 <h3>Reflection </h3>
 </br>
-Use the potentiometer to adjest the volume.
+Different buttons can make different tons, turning the potentiometer will adjust the volume.
 </br>
 </br>
 <h3>YouTube</h3>

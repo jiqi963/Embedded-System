@@ -1,4 +1,4 @@
-<h1>Buzzer</h1>
+<h1>Digital Trumpet</h1>
 <h3>Reflection </h3>
 </br>
 Use the potentiometer to adjest the volume.
@@ -6,26 +6,26 @@ Use the potentiometer to adjest the volume.
 </br>
 <h3>YouTube</h3>
 </br>
-https://www.youtube.com/watch?v=3HX1cn7hj_M
+https://www.youtube.com/watch?v=IQsmmexpn6M
 </br>
 <h3>Schematic</h3>
 </br>
-![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%202A/Schematic.PNG?raw=true)
+![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%202B/Schematic.JPG)
 </br>
 <h3>PCB</h3>
 </br>
-![PCB](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%202A/PCB.PNG)
+![PCB](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%202B/PCB.JPG)
 </br>
 <h3>Breadboard</h3>
 </br>
-![Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%202A/BreadBoard.PNG)
+![Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%202B/BreadBoard.JPG?raw=true)
 </br>
 <h3>CODE</h3>
 /*
 SparkFun Inventor’s Kit
-Circuit 2A - Buzzer
+Circuit 2B-ButtonTrumpet
 
-Play notes using a buzzer connected to pin 10
+Use 3 buttons plugged to play musical notes on a buzzer.
 
 This sketch was written by SparkFun Electronics, with lots of help from the Arduino community.
 This code is completely free for any use.
@@ -34,99 +34,48 @@ View circuit diagram and instructions at: https://learn.sparkfun.com/tutorials/s
 Download drawings and code at: https://github.com/sparkfun/SIK-Guide-Code
 */
 
-int speakerPin = 10;               //the pin that buzzer is connected to
+//set the pins for the button and buzzer
+int firstKeyPin = 2;
+int secondKeyPin = 3;
+int thirdKeyPin = 4;
 
-void setup()
-{
-  pinMode(speakerPin, OUTPUT);    //set the output pin for the speaker
+int buzzerPin = 10;
+
+
+void setup() {
+  //set the button pins as inputs
+  pinMode(firstKeyPin, INPUT_PULLUP);
+  pinMode(secondKeyPin, INPUT_PULLUP);
+  pinMode(thirdKeyPin, INPUT_PULLUP);
+
+  //set the buzzer pin as an output
+  pinMode(buzzerPin, OUTPUT);
 }
 
-void loop()
-{
-    
-  play('g', 2);       //ha
-  play('g', 1);       //ppy
-  play('a', 4);       //birth
-  play('g', 4);       //day
-  play('C', 4);       //to
-  play('b', 4);       //you
+void loop() {
   
-  play(' ', 2);       //pause for 2 beats
-  
-  play('g', 2);       //ha     
-  play('g', 1);       //ppy
-  play('a', 4);       //birth
-  play('g', 4);       //day
-  play('D', 4);       //to
-  play('C', 4);       //you
-
-  play(' ', 2);       //pause for 2 beats
-  
-  play('g', 2);       //ha
-  play('g', 1);       //ppy
-  play('G', 4);       //birth
-  play('E', 4);       //day
-  play('C', 4);       //dear
-  play('b', 4);       //your
-  play('a', 6);       //name
-
-  play(' ', 2);       //pause for 2 beats
-  
-  play('F', 2);       //ha
-  play('F', 1);       //ppy
-  play('E', 4);       //birth
-  play('C', 4);       //day
-  play('D', 4);       //to
-  play('C', 6);       //you
-  
-  while(true){}       //get stuck in this loop forever so that the song only plays once
-}
-
-
-void play( char note, int beats)
-{
-  int numNotes = 14;  // number of notes in our note and frequency array (there are 15 values, but arrays start at 0)
-  
-  //Note: these notes are C major (there are no sharps or flats)
-
-  //this array is used to look up the notes
-  char notes[] = { 'c', 'd', 'e', 'f', 'g', 'a', 'b', 'C', 'D', 'E', 'F', 'G', 'A', 'B', ' '};
-  //this array matches frequencies with each letter (e.g. the 4th note is 'f', the 4th frequency is 175)
-  int frequencies[] = {131, 147, 165, 175, 196, 220, 247, 262, 294, 330, 349, 392, 440, 494, 0};
-  
-  int currentFrequency = 0;    //the frequency that we find when we look up a frequency in the arrays
-  int beatLength = 150;   //the length of one beat (changing this will speed up or slow down the tempo of the song)
-
-  //look up the frequency that corresponds to the note
-  for (int i = 0; i < numNotes; i++)  // check each value in notes from 0 to 14
-  {
-    if (notes[i] == note)             // does the letter passed to the play function match the letter in the array?
-    {
-      currentFrequency = frequencies[i];   // Yes! Set the current frequency to match that note
-    }
+  if(digitalRead(firstKeyPin) == LOW){        //if the first key is pressed
+    tone(buzzerPin, 262);                     //play the frequency for c
   }
-
-  //play the frequency that matched our letter for the number of beats passed to the play function
-  tone(speakerPin, currentFrequency, beats * beatLength);   
-  delay(beats* beatLength);   //wait for the length of the tone so that it has time to play
-  delay(50);                  //a little delay between the notes makes the song sound more natural
-
+  else if(digitalRead(secondKeyPin) == LOW){  //if the second key is pressed
+    tone(buzzerPin, 330);                     //play the frequency for e
+  }
+  else if(digitalRead(thirdKeyPin) == LOW){   //if the third key is pressed
+    tone(buzzerPin, 392);                     //play the frequency for g
+  }
+  else{
+    noTone(buzzerPin);                        //if no key is pressed turn the buzzer off
+  }
 }
 
-/* CHART OF FREQUENCIES FOR NOTES IN C MAJOR
-Note      Frequency (Hz)
-c        131
-d        147
-e        165
-f        175
-g        196
-a        220
-b        247
-C        262
-D        294
-E        330
-F        349
-G        392
-A        440
-B        494
-*/
+  /*
+  note  frequency
+  c     262 Hz
+  d     294 Hz
+  e     330 Hz
+  f     349 Hz
+  g     392 Hz
+  a     440 Hz
+  b     494 Hz
+  C     523 Hz
+  */

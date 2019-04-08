@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=3HX1cn7hj_M
 </br>
 <h3>Schematic</h3>
 </br>
-![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%202A/Schematic.PNG)
+![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%202A/Schematic.PNG?raw=true)
 </br>
 <h3>PCB</h3>
 </br>

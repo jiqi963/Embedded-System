@@ -1,5 +1,28 @@
+<h1>Temperature Sensor</h1>
+<h3>Reflection </h3>
+</br>
+Use the temperature sensor to sense the temperature and humidity then show thoes on the screen.
+</br>
+</br>
+<h3>YouTube</h3>
+</br>
+https://youtu.be/aEeB9ryw4QY
+</br>
+<h3>Schematic</h3>
+</br>
+![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%204B/Schematic.JPG)
+</br>
+<h3>PCB</h3>
+</br>
+![PCB](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%204B/PCB.JPG)
+</br>
+<h3>Breadboard</h3>
+</br>
+![Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%204B/Breadboard.JPG)
+</br>
+<h3>CODE</h3>
 /*
-SparkFun Inventor?s Kit
+SparkFun Inventor’s Kit
 Circuit 4B - Temperature Sensor
 
 The LCD will display readings from a temperature sensor in degrees Celsius and Fahrenheit.

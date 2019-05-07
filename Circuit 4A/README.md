@@ -11,7 +11,7 @@ https://youtu.be/WMNJFf42Njo
 </br>
 <h3>Schematic</h3>
 </br>
-![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%204A/Schematic.JPG)
+![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%204A/Schematic.JPG?raw=true)
 </br>
 <h3>PCB</h3>
 </br>

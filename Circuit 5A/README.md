@@ -1,7 +1,7 @@
 <h1>Motor basic</h1>
 <h3>Reflection </h3>
 </br>
-Use code to conrtol the motor speed.
+Use switch to conrtol the motor on or off.
 </br>
 </br>
 <h3>YouTube</h3>

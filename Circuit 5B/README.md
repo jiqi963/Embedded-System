@@ -10,14 +10,14 @@ Follow before the circuit add another motor.
 </br>
 <h3>Schematic</h3>
 </br>
-![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205B/Schematic.JPG)
+![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205B/Schematic.jpg)
 </br>
 <h3>PCB</h3>
 </br>
-![PCB](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205B/PCB.JPG)
+![PCB](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205B/PCB.jpg)
 </br>
 <h3>Breadboard</h3>
 </br>
-![Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205B/Breadboard.JPG)
+![Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205B/Breadboard.jpg)
 </br>
 <h3>CODE</h3>

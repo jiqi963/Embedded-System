@@ -10,14 +10,14 @@ Follow before the circuit add a sensor, the sensor can looking forward and the r
 </br>
 <h3>Schematic</h3>
 </br>
-![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205C/Schematic.JPG)
+![Schematic](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205C/Schematic.jpg)
 </br>
 <h3>PCB</h3>
 </br>
-![PCB](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205C/PCB.JPG)
+![PCB](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205C/PCB.jpg)
 </br>
 <h3>Breadboard</h3>
 </br>
-![Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205C/Breadboard.JPG)
+![Breadboard](https://github.com/jiqi963/Embedded-System/blob/master/Circuit%205C/Breadboard.jpg)
 </br>
 <h3>CODE</h3>
